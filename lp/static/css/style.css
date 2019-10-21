@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Overpass:100&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: black !important;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.navText {
+  color: #ffffff;
+  font-family: 'Overpass', sans-serif;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.video {
+  height: 100vh;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.info {
+  background-color: #e4e4e4;
+  height: 80vh;
+}
+
+.info .info-card {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.info .info-card .info-head {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 40px;
+  letter-spacing: -1.2px;
+  word-spacing: 0px;
+  font-weight: 700;
+  text-decoration: none;
+  font-style: normal;
+  text-transform: capitalize;
+}
+
+.info .info-border {
+  border-color: #a09037;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 25px;
+  margin-right: 2px;
+  margin-left: 2px;
+}
+
+.info .fas {
+  font-size: 40px;
+  color: #a09037;
+  margin-bottom: 10px;
+}
+
+.img {
+  background-image: url(/lp/static/img/fam-beach.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: all ease-in-out;
+  -moz-transition: all ease-in-out;
+  -webkit-transition: all ease-in-out;
+  -o-transition: all ease-in-out;
+}
+
+form {
+  margin-top: 110px;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 300px;
+  height: 500px;
+  color: #ffffff;
+  border-radius: 25px;
+  -webkit-box-shadow: 5px 3px 11px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 5px 3px 11px 0px rgba(50, 50, 50, 0.75);
+}
+
+form .topmargin-form {
+  padding-top: 15px;
+  text-align: center;
+}
+
+form .form-group {
+  width: 250px;
+  text-align: center;
+  margin-left: 24px;
+}
+
+form .btn {
+  margin-left: 95px;
+  height: 50px;
+  width: 110px;
+  font-weight: 700;
+}
+
+form .btn-danger {
+  background-color: #a09037;
+  border-color: #a09037;
+}
+
+form .btn-danger:hover {
+  background-color: #d6c251;
+  border-color: #d6c251;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .info {
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .info {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .info {
+    height: 140vh;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .info {
+    height: 160vh;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .info {
+    height: 150vh;
+  }
+}
+/*# sourceMappingURL=style.css.map */
